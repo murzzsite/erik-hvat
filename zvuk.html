@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Звук — музыкальная вселенная ТИР</title>
+<meta name="description" content="Звук — раздел Вселенной ТИР. Виртуальные музыкальные проекты Ирека Тухватшина, лицензирование музыки, прослушивание песен.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.artist-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px;}
+.artist-card h3{font-size:19px;margin-bottom:2px;}
+.artist-card .role{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700;margin-bottom:10px;display:block;}
+.track-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:0 14px 34px -28px rgba(0,0,0,.5);}
+.track-card h3{font-size:20px;margin-bottom:4px;}
+.track-card .sub{font-size:13px;color:var(--ink-soft);margin-bottom:16px;}
+.track-card iframe{border-radius:14px;width:100%;}
+.platform-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px;}
+.platform-row a{font-size:13px;font-weight:700;padding:8px 16px;border-radius:999px;background:var(--bg-alt);border:1px solid var(--line);color:var(--ink);transition:.15s;}
+.platform-row a:hover{background:var(--accent);color:#181206;}
+</style>
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="index.html" class="logo"><img src="img/tir/logo-main.jpg" alt="ТИР">ТИР<small>Вселенная Ирека Тухватшина</small></a>
+    <nav class="nav" id="nav">
+      <a href="index.html">Главная</a>
+      <a href="slovo.html">Слово</a>
+      <a href="zvuk.html" class="active">Звук</a>
+      <a href="znanie.html">Знание</a>
+      <a href="put.html">Путь</a>
+      <a href="o-avtore.html">Об авторе</a>
+    </nav>
+    <div class="header__cta">
+      <a href="#contact" class="btn btn-primary"><span class="long">Лицензия</span><span>→</span></a>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Главная</a> / Звук</div>
+    <div class="eyebrow">Музыкальная вселенная ТИР</div>
+    <h1>Звук <span class="script-word">музыка — это язык души, понятный без слов</span></h1>
+    <p class="lede">Несколько виртуальных музыкальных проектов, каждый — со своим характером и языком. Музыка доступна для прослушивания и для лицензирования.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="eyebrow">Виртуальные проекты</div>
+    <h2>Кто звучит во Вселенной ТИР</h2>
+    <div class="grid grid-3" style="margin-top:28px">
+      <div class="artist-card">
+        <span class="role">Виртуальный артист</span>
+        <h3>Эрик Хват</h3>
+        <p>Философские и любовные песни на русском языке.</p>
+      </div>
+      <div class="artist-card">
+        <span class="role">Виртуальный артист</span>
+        <h3>Erik Hvat</h3>
+        <p>Песни из репертуара Эрика Хвата на английском языке.</p>
+      </div>
+      <div class="artist-card">
+        <span class="role">Виртуальная творческая группа</span>
+        <h3>Нежданный мотив</h3>
+        <p>Музыка для ресторанов и кино.</p>
+      </div>
+      <div class="artist-card">
+        <span class="role">Виртуальная творческая группа</span>
+        <h3>The Ancestral Spirit</h3>
+        <p>Этническая музыка в стиле коренных народов Америки.</p>
+      </div>
+      <div class="artist-card">
+        <span class="role">Виртуальная творческая группа</span>
+        <h3>IREK TU</h3>
+        <p>Популярные и роковые песни на русском и английском языках.</p>
+      </div>
+      <div class="artist-card">
+        <span class="role">Стили</span>
+        <h3>Pop · Rock · Jazz</h3>
+        <p>Разные направления объединены одним авторским почерком.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight section-alt">
+  <div class="container">
+    <div class="eyebrow">Слушать</div>
+    <h2>Песни Эрика Хвата</h2>
+    <div class="grid grid-2" style="margin-top:24px">
+      <div class="track-card">
+        <h3>Я хочу жить проще</h3>
+        <div class="sub">Сингл</div>
+        <iframe style="border-radius:12px" frameborder="0" src="https://music.yandex.ru/iframe/#album/42496560/" width="100%" height="230" loading="lazy"></iframe>
+        <div class="platform-row">
+          <a href="https://music.vk.com/link/70iFe" target="_blank" rel="noopener">VK Музыка</a>
+          <a href="https://music.apple.com/us/album/6780477723" target="_blank" rel="noopener">Apple Music</a>
+          <a href="https://open.spotify.com/album/01tXt1pakDSyEEUVjU3kRW" target="_blank" rel="noopener">Spotify</a>
+          <a href="https://music.mts.ru/album/42496560" target="_blank" rel="noopener">KION Music</a>
+        </div>
+      </div>
+      <div class="track-card">
+        <h3>Свободы гимн <span style="font-weight:400;color:var(--ink-soft)">(Freedom of thought)</span></h3>
+        <div class="sub">Сингл</div>
+        <iframe style="border-radius:12px" frameborder="0" src="https://music.yandex.ru/iframe/#album/40291613/" width="100%" height="230" loading="lazy"></iframe>
+        <div class="platform-row">
+          <a href="https://music.vk.com/link/gbWmB" target="_blank" rel="noopener">VK Музыка</a>
+          <a href="https://music.apple.com/us/album/1872242237" target="_blank" rel="noopener">Apple Music</a>
+          <a href="https://open.spotify.com/album/5pTjDhksA2SNkptJPn61XM" target="_blank" rel="noopener">Spotify</a>
+          <a href="https://music.mts.ru/album/40291613" target="_blank" rel="noopener">KION Music</a>
+        </div>
+      </div>
+    </div>
+    <p style="margin-top:20px"><a href="https://vk.com/erikhvat" target="_blank" rel="noopener" style="color:var(--accent);font-weight:700">Все релизы во VK →</a></p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="quote-block center" style="max-width:760px">
+      «Из хаоса рождается музыка: ничего нового не появилось, изменились лишь отношения между уже существующими элементами»
+      <cite>— из книги «Архитектура сознания»</cite>
+    </div>
+  </div>
+</section>
+
+<section class="section-dark">
+  <div class="container">
+    <div class="eyebrow" style="color:var(--gold-soft)">Лицензирование</div>
+    <h2>Музыка и песни для лицензирования</h2>
+    <p class="lede" style="color:var(--ink-soft)">Музыкальные произведения доступны для приобретения частичных прав и лицензирования — исполнителям, рестораторам, кинопродюсерам и другим заказчикам.</p>
+    <div class="grid grid-3" style="margin-top:28px">
+      <a class="card on-dark" href="#contact">
+        <h3>Каталог музыки</h3>
+        <p>Запросить перечень доступных треков и направлений.</p>
+      </a>
+      <a class="card on-dark" href="#contact">
+        <h3>Условия лицензирования</h3>
+        <p>Уточнить формат прав и стоимость использования.</p>
+      </a>
+      <a class="card on-dark" href="#contact">
+        <h3>Запросить лицензию</h3>
+        <p>Оставить заявку на конкретный трек или задачу.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="form-section">
+      <div class="eyebrow" style="color:var(--gold-soft)">Заказ и лицензирование</div>
+      <h2>Нужна песня или лицензия на трек</h2>
+      <p class="lede">Песня на заказ, музыка для проекта или вопрос по лицензированию — оставьте контакт.</p>
+      <form class="leadForm form" data-source="zvuk">
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+        <label>Имя</label>
+        <input type="text" name="name" placeholder="Как вас зовут" required>
+        <label>Контакт</label>
+        <input type="text" name="contact" placeholder="Телефон, Telegram или e-mail" required>
+        <label>Что нужно</label>
+        <textarea name="comment" rows="3" placeholder="Песня на заказ / лицензирование / каталог"></textarea>
+        <button type="submit" class="btn btn-gold">Отправить</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <b>Вселенная ТИР</b>
+        <a href="slovo.html">Слово</a>
+        <a href="zvuk.html">Звук</a>
+        <a href="znanie.html">Знание</a>
+        <a href="put.html">Путь</a>
+        <a href="o-avtore.html">Об авторе</a>
+      </div>
+      <div class="footer__col">
+        <b>Слушать</b>
+        <a href="https://music.yandex.ru/album/42496560" target="_blank" rel="noopener">Яндекс Музыка</a>
+        <a href="https://open.spotify.com/album/01tXt1pakDSyEEUVjU3kRW" target="_blank" rel="noopener">Spotify</a>
+      </div>
+      <div class="footer__col">
+        <b>Контакты</b>
+        <a href="https://t.me/erikhvat" target="_blank" rel="noopener">Telegram — t.me/erikhvat</a>
+        <a href="https://vk.com/erikhvat" target="_blank" rel="noopener">VK — vk.com/erikhvat</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> IREK•TUHVATSHIN — Вселенная ТИР</span>
+      <span>Имя и псевдонимы зарегистрированы в международном реестре ISNI</span>
+    </div>
+  </div>
+</footer>
+
+<div class="fab"><a href="https://t.me/erikhvat" target="_blank" rel="noopener" aria-label="Telegram">✉</a></div>
+
+<script src="script.js"></script>
+</body>
+</html>
