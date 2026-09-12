@@ -10,9 +10,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <style>
-.artist-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px;}
-.artist-card h3{font-size:19px;margin-bottom:2px;}
+.artist-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px;display:block;transition:.2s ease;}
+.artist-card:hover{border-color:var(--accent);transform:translateY(-4px);box-shadow:0 20px 44px -24px rgba(201,164,92,.35);}
+.artist-card h3{font-size:22px;font-weight:700;margin:0 0 12px;}
 .artist-card .role{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700;margin-bottom:10px;display:block;}
+.artist-card p{font-size:14px;color:var(--ink-soft);margin:0;}
+.artist-card .listen-hint{display:block;margin-top:14px;font-size:12.5px;font-weight:700;color:var(--accent);}
 .track-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:0 14px 34px -28px rgba(0,0,0,.5);}
 .track-card h3{font-size:20px;margin-bottom:4px;}
 .track-card .sub{font-size:13px;color:var(--ink-soft);margin-bottom:16px;}
@@ -47,7 +50,7 @@
     <div class="breadcrumb"><a href="index.html">Главная</a> / Звук</div>
     <div class="eyebrow">Музыкальная вселенная ТИР</div>
     <h1>Звук</h1>
-    <p class="lede">Несколько виртуальных музыкальных проектов, каждый — со своим характером и языком. Музыка доступна для прослушивания и для лицензирования.</p>
+    <p class="lede">Я транслирую свои музыкальные композиции, записанные с помощью AI-технологий, через пять отдельных направлений, которые имеют собственное характерное звучание и наполнение. Благодаря такому разделению каждая композиция имеет больше шансов найти своего слушателя.</p>
   </div>
 </section>
 
@@ -56,32 +59,37 @@
     <div class="eyebrow">Виртуальные проекты</div>
     <h2>Кто звучит во вселенной ТИР</h2>
     <div class="grid grid-3" style="margin-top:28px">
-      <div class="artist-card">
+      <a class="artist-card" href="#listen">
         <span class="role">Виртуальный артист</span>
         <h3>Эрик Хват</h3>
         <p>Философские и любовные песни на русском языке.</p>
-      </div>
-      <div class="artist-card">
+        <span class="listen-hint">Слушать →</span>
+      </a>
+      <a class="artist-card" href="#listen">
         <span class="role">Виртуальный артист</span>
         <h3>Erik Hvat</h3>
         <p>Песни из репертуара Эрика Хвата на английском языке.</p>
-      </div>
-      <div class="artist-card">
+        <span class="listen-hint">Слушать →</span>
+      </a>
+      <a class="artist-card" href="https://vk.com/erikhvat" target="_blank" rel="noopener">
         <span class="role">Виртуальная творческая группа</span>
         <h3>Нежданный мотив</h3>
         <p>Музыка для ресторанов и кино.</p>
-      </div>
-      <div class="artist-card">
+        <span class="listen-hint">Слушать во VK →</span>
+      </a>
+      <a class="artist-card" href="https://vk.com/erikhvat" target="_blank" rel="noopener">
         <span class="role">Виртуальная творческая группа</span>
         <h3>The Ancestral Spirit</h3>
         <p>Этническая музыка в стиле коренных народов Америки.</p>
-      </div>
-      <div class="artist-card">
+        <span class="listen-hint">Слушать во VK →</span>
+      </a>
+      <a class="artist-card" href="https://vk.com/erikhvat" target="_blank" rel="noopener">
         <span class="role">Виртуальная творческая группа</span>
         <h3>IREK TU</h3>
         <p>Популярные и роковые песни на русском и английском языках.</p>
-      </div>
-      <div class="artist-card">
+        <span class="listen-hint">Слушать во VK →</span>
+      </a>
+      <div class="artist-card" style="cursor:default">
         <span class="role">Стили</span>
         <h3>Pop · Rock · Jazz</h3>
         <p>Разные направления объединены одним авторским почерком.</p>
@@ -90,7 +98,7 @@
   </div>
 </section>
 
-<section class="section-tight section-alt">
+<section id="listen" class="section-tight section-alt">
   <div class="container">
     <div class="eyebrow">Слушать</div>
     <h2>Песни Эрика Хвата</h2>
