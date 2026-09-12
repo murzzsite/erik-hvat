@@ -16,14 +16,6 @@
 .artist-card .role{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--gold);font-weight:700;margin-bottom:10px;display:block;}
 .artist-card p{font-size:14px;color:var(--ink-soft);margin:0;}
 .artist-card .listen-hint{display:block;margin-top:14px;font-size:12.5px;font-weight:700;color:var(--accent);}
-.project-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px;}
-.project-grid>*{grid-column:span 2;}
-.project-grid .offset2{grid-column:2 / span 2;}
-.project-grid .offset4{grid-column:4 / span 2;}
-@media (max-width:900px){
-  .project-grid{grid-template-columns:repeat(2,1fr);}
-  .project-grid>*,.project-grid .offset2,.project-grid .offset4{grid-column:span 1;}
-}
 </style>
 </head>
 <body>
@@ -51,7 +43,7 @@
     <div class="breadcrumb"><a href="index.html">Главная</a> / Звук</div>
     <div class="eyebrow">Музыкальная вселенная ТИР</div>
     <h1>Звук</h1>
-    <p class="lede">Я транслирую свои музыкальные композиции, записанные с помощью AI-технологий, через пять отдельных направлений, которые имеют собственное характерное звучание и наполнение. Благодаря такому разделению каждая композиция имеет больше шансов найти своего слушателя.</p>
+    <p class="lede">Я транслирую свои музыкальные композиции, записанные с помощью AI-технологий, через шесть отдельных направлений, которые имеют собственное характерное звучание и наполнение. Благодаря такому разделению каждая композиция имеет больше шансов найти своего слушателя.</p>
   </div>
 </section>
 
@@ -59,10 +51,16 @@
   <div class="container">
     <div class="eyebrow">Виртуальные проекты</div>
     <h2>Кто звучит во вселенной ТИР</h2>
-    <div class="project-grid" style="margin-top:28px">
+    <div class="grid grid-3" style="margin-top:28px">
       <a class="artist-card" href="https://vk.com/erikhvat" target="_blank" rel="noopener">
         <span class="role">Виртуальный артист</span>
-        <h3>Erik Hvat / Эрик Хват</h3>
+        <h3>Эрик Хват</h3>
+        <p>Философские и любовные песни на русском языке.</p>
+        <span class="listen-hint">Слушать во VK →</span>
+      </a>
+      <a class="artist-card" href="https://vk.com/erikhvat" target="_blank" rel="noopener">
+        <span class="role">Виртуальный артист</span>
+        <h3>Erik Hvat</h3>
         <p>Песни из репертуара Эрика Хвата на английском языке.</p>
         <span class="listen-hint">Слушать во VK →</span>
       </a>
@@ -78,13 +76,13 @@
         <p>Этническая музыка в стиле коренных народов Америки.</p>
         <span class="listen-hint">Слушать во VK →</span>
       </a>
-      <a class="artist-card offset2" href="https://vk.com/erikhvat" target="_blank" rel="noopener">
+      <a class="artist-card" href="https://vk.com/erikhvat" target="_blank" rel="noopener">
         <span class="role">Виртуальная творческая группа</span>
         <h3>IREK TU</h3>
         <p>Популярные и роковые песни на русском и английском языках.</p>
         <span class="listen-hint">Слушать во VK →</span>
       </a>
-      <div class="artist-card offset4" style="cursor:default">
+      <div class="artist-card" style="cursor:default">
         <span class="role">Стили</span>
         <h3>Pop · Rock · Jazz</h3>
         <p>Разные направления объединены одним авторским почерком.</p>
