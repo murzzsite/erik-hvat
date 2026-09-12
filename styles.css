@@ -88,7 +88,7 @@ section{padding:100px 0;position:relative;}
 }
 .logo img:hover{box-shadow:0 0 0 2px rgba(228,225,216,.3), 0 0 24px 6px rgba(201,164,92,.55);transform:scale(1.05);}
 .logo-ru{font-family:var(--display);font-weight:700;font-size:19px;letter-spacing:.01em;white-space:nowrap;}
-.logo-en{font-family:var(--display);font-style:italic;font-weight:600;font-size:19px;letter-spacing:.01em;color:var(--ink-soft);white-space:nowrap;}
+.logo-en{font-family:var(--display);font-style:italic;font-weight:700;font-size:19px;letter-spacing:.01em;color:var(--ink);white-space:nowrap;}
 .logo span{color:var(--accent);font-style:italic;}
 .logo small{display:block;font-family:var(--sans);font-weight:600;font-size:10px;color:var(--ink-soft);letter-spacing:.08em;text-transform:uppercase;}
 
