@@ -9,6 +9,20 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
+  const logoImg = document.getElementById('logoImg');
+  if (logoImg) {
+    const lightbox = document.createElement('div');
+    lightbox.className = 'logo-lightbox';
+    lightbox.innerHTML = '<img src="' + logoImg.src + '" alt="' + logoImg.alt + '">';
+    document.body.appendChild(lightbox);
+    logoImg.addEventListener('click', e => {
+      e.preventDefault();
+      e.stopPropagation();
+      lightbox.classList.add('is-open');
+    });
+    lightbox.addEventListener('click', () => lightbox.classList.remove('is-open'));
+  }
+
   const burger = document.getElementById('burger');
   const nav = document.getElementById('nav');
   burger?.addEventListener('click', () => {
