@@ -24,9 +24,11 @@
   .project-grid{grid-template-columns:repeat(2,1fr);}
   .project-grid>*,.project-grid .offset2,.project-grid .offset4{grid-column:span 1;}
 }
-.track-list{margin:14px 0 0;padding:0;list-style:none;column-count:1;}
-.track-list li{font-size:14px;color:var(--ink-soft);padding:6px 0;border-top:1px solid var(--line);}
+.track-list{margin:14px 0 0;padding:0;list-style:none;}
+.track-list li{padding:12px 0;border-top:1px solid var(--line);}
 .track-list li:first-child{border-top:none;}
+.track-list .track-title{display:block;font-size:14px;color:var(--ink-soft);margin-bottom:8px;}
+.track-list audio{width:100%;height:32px;display:block;}
 </style>
 </head>
 <body>
@@ -81,7 +83,7 @@
       </a>
       <a class="artist-card offset2" href="https://vk.com/erikhvat" target="_blank" rel="noopener">
         <span class="role">Виртуальная творческая группа</span>
-        <h3>The Ancestral Spirit</h3>
+        <h3>The Ancestral Spirit / Дух предков</h3>
         <p>Этническая музыка в стиле коренных народов Америки.</p>
         <span class="listen-hint">Слушать во VK →</span>
       </a>
@@ -103,61 +105,61 @@
       <div class="card">
         <h3>Эрик Хват</h3>
         <ul class="track-list">
-          <li>Демон в тени</li>
-          <li>Истлевшие сюжеты</li>
-          <li>Кинотеатр</li>
-          <li>Летим</li>
-          <li>Луч</li>
-          <li>Мой любимый человек</li>
-          <li>Ну и пусть</li>
-          <li>Питерская</li>
-          <li>Прощай, Уфа</li>
-          <li>Сила глубин</li>
-          <li>Скорпион</li>
-          <li>Солнечный край</li>
-          <li>Тень в пустоте</li>
-          <li>Тяжёлые шаги</li>
-          <li>Я смотрю</li>
+          <li><span class="track-title">Демон в тени</span><audio controls preload="none" src="audio/erik-hvat-ru/demon-v-teni.mp3"></audio></li>
+          <li><span class="track-title">Истлевшие сюжеты</span><audio controls preload="none" src="audio/erik-hvat-ru/istlevshie-syuzhety.mp3"></audio></li>
+          <li><span class="track-title">Кинотеатр</span><audio controls preload="none" src="audio/erik-hvat-ru/kinoteatr.mp3"></audio></li>
+          <li><span class="track-title">Летим</span><audio controls preload="none" src="audio/erik-hvat-ru/letim.mp3"></audio></li>
+          <li><span class="track-title">Луч</span><audio controls preload="none" src="audio/erik-hvat-ru/luch.wav"></audio></li>
+          <li><span class="track-title">Мой любимый человек</span><audio controls preload="none" src="audio/erik-hvat-ru/moy-lyubimyy-chelovek.mp3"></audio></li>
+          <li><span class="track-title">Ну и пусть</span><audio controls preload="none" src="audio/erik-hvat-ru/nu-i-pust.mp3"></audio></li>
+          <li><span class="track-title">Питерская</span><audio controls preload="none" src="audio/erik-hvat-ru/piterskaya.mp3"></audio></li>
+          <li><span class="track-title">Прощай, Уфа</span><audio controls preload="none" src="audio/erik-hvat-ru/proschay-ufa.mp3"></audio></li>
+          <li><span class="track-title">Сила глубин</span><audio controls preload="none" src="audio/erik-hvat-ru/sila-glubin.mp3"></audio></li>
+          <li><span class="track-title">Скорпион</span><audio controls preload="none" src="audio/erik-hvat-ru/skorpion.wav"></audio></li>
+          <li><span class="track-title">Солнечный край</span><audio controls preload="none" src="audio/erik-hvat-ru/solnechnyy-kray.mp3"></audio></li>
+          <li><span class="track-title">Тень в пустоте</span><audio controls preload="none" src="audio/erik-hvat-ru/ten-v-pustote.mp3"></audio></li>
+          <li><span class="track-title">Тяжёлые шаги</span><audio controls preload="none" src="audio/erik-hvat-ru/tyazhelye-shagi.mp3"></audio></li>
+          <li><span class="track-title">Я смотрю</span><audio controls preload="none" src="audio/erik-hvat-ru/ya-smotryu.wav"></audio></li>
         </ul>
       </div>
       <div class="card">
         <h3>Erik Hvat</h3>
         <ul class="track-list">
-          <li>Cinema</li>
-          <li>I would love to sail to Australia</li>
-          <li>Ships of the future</li>
-          <li>The Oath</li>
-          <li>Wings of madness</li>
+          <li><span class="track-title">Cinema</span><audio controls preload="none" src="audio/erik-hvat-en/cinema.mp3"></audio></li>
+          <li><span class="track-title">I would love to sail to Australia</span><audio controls preload="none" src="audio/erik-hvat-en/i-would-love-to-sail-to-australia.mp3"></audio></li>
+          <li><span class="track-title">Ships of the future</span><audio controls preload="none" src="audio/erik-hvat-en/ships-of-the-future.mp3"></audio></li>
+          <li><span class="track-title">The Oath</span><audio controls preload="none" src="audio/erik-hvat-en/the-oath.mp3"></audio></li>
+          <li><span class="track-title">Wings of madness</span><audio controls preload="none" src="audio/erik-hvat-en/wings-of-madness.mp3"></audio></li>
         </ul>
       </div>
       <div class="card">
         <h3>Нежданный мотив</h3>
         <ul class="track-list">
-          <li>Ветер наизнанку</li>
-          <li>Космогония</li>
-          <li>Поездка на юг</li>
-          <li>Сигналы бедствия</li>
-          <li>Ускорение</li>
+          <li><span class="track-title">Ветер наизнанку</span><audio controls preload="none" src="audio/nezhdanny-motiv/veter-naiznanku.mp3"></audio></li>
+          <li><span class="track-title">Космогония</span><audio controls preload="none" src="audio/nezhdanny-motiv/kosmogoniya.mp3"></audio></li>
+          <li><span class="track-title">Поездка на юг</span><audio controls preload="none" src="audio/nezhdanny-motiv/poezdka-na-yug.mp3"></audio></li>
+          <li><span class="track-title">Сигналы бедствия</span><audio controls preload="none" src="audio/nezhdanny-motiv/signaly-bedstviya.mp3"></audio></li>
+          <li><span class="track-title">Ускорение</span><audio controls preload="none" src="audio/nezhdanny-motiv/uskorenie.mp3"></audio></li>
         </ul>
       </div>
       <div class="card offset2">
-        <h3>The Ancestral Spirit</h3>
+        <h3>The Ancestral Spirit / Дух предков</h3>
         <ul class="track-list">
-          <li>Железное полотно — Iron Track</li>
-          <li>Могикане восстают — The Mohicans are rising</li>
-          <li>Одинокая душа — A lonely soul</li>
-          <li>Осенняя прихоть — Autumn Caprice</li>
-          <li>Принцесса Матоака — Princess Matoaka</li>
+          <li><span class="track-title">Железное полотно — Iron Track</span><audio controls preload="none" src="audio/ancestral-spirit/zheleznoe-polotno-iron-track.mp3"></audio></li>
+          <li><span class="track-title">Могикане восстают — The Mohicans are rising</span><audio controls preload="none" src="audio/ancestral-spirit/mogikane-vosstayut-the-mohicans-are-rising.mp3"></audio></li>
+          <li><span class="track-title">Одинокая душа — A lonely soul</span><audio controls preload="none" src="audio/ancestral-spirit/odinokaya-dusha-a-lonely-soul.mp3"></audio></li>
+          <li><span class="track-title">Осенняя прихоть — Autumn Caprice</span><audio controls preload="none" src="audio/ancestral-spirit/osennyaya-prihot-autumn-caprice.mp3"></audio></li>
+          <li><span class="track-title">Принцесса Матоака — Princess Matoaka</span><audio controls preload="none" src="audio/ancestral-spirit/printsessa-matoaka-princess-matoaka.mp3"></audio></li>
         </ul>
       </div>
       <div class="card offset4">
         <h3>IREK TU</h3>
         <ul class="track-list">
-          <li>Видишь</li>
-          <li>Наш мир</li>
-          <li>Пока ты рядом</li>
-          <li>Самарский пульс</li>
-          <li>Я хочу жить проще</li>
+          <li><span class="track-title">Видишь</span><audio controls preload="none" src="audio/irek-tu/vidish.mp3"></audio></li>
+          <li><span class="track-title">Наш мир</span><audio controls preload="none" src="audio/irek-tu/nash-mir.mp3"></audio></li>
+          <li><span class="track-title">Пока ты рядом</span><audio controls preload="none" src="audio/irek-tu/poka-ty-ryadom.wav"></audio></li>
+          <li><span class="track-title">Самарский пульс</span><audio controls preload="none" src="audio/irek-tu/samarskiy-puls.mp3"></audio></li>
+          <li><span class="track-title">Я хочу жить проще</span><audio controls preload="none" src="audio/irek-tu/ya-hochu-zhit-prosche.mp3"></audio></li>
         </ul>
       </div>
     </div>
