@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow">
+<title>Оформление Telegram-канала — Эрик Хват</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,500&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="materials.css">
+<style>
+.wk{border:1px solid var(--line);background:var(--paper);border-radius:3px;margin-bottom:14px}
+.wk summary{cursor:pointer;list-style:none;padding:16px 20px;background:var(--teal);color:var(--gold-l);font-family:'Playfair Display',serif;font-weight:700;font-size:19px;display:flex;justify-content:space-between;gap:10px;border-left:5px solid var(--gold)}
+.wk summary::-webkit-details-marker{display:none}
+.wk summary span{font-family:'PT Serif',serif;font-weight:400;font-size:13px;letter-spacing:.12em;color:var(--gold);text-transform:uppercase}
+.posts{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;padding:18px}
+@media(max-width:820px){.posts{grid-template-columns:1fr}}
+.post{background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);border-radius:3px;overflow:hidden;display:flex;flex-direction:column}
+.post img{width:100%;height:auto;display:block;background:var(--teal)}
+.post__b{padding:14px 16px 16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.post__m{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-d)}
+.post h4{font-size:17px;margin:0}
+.post__t{white-space:pre-wrap;font-size:15px;line-height:1.6;background:#fbf8ee;border:1px solid var(--line);border-radius:3px;padding:12px 14px;max-height:260px;overflow:auto;word-break:break-word}
+.post__a{display:flex;gap:8px;flex-wrap:wrap}
+.btn--sm{padding:7px 14px;font-size:13px;cursor:pointer;font-family:inherit}
+button.btn{background:transparent}
+.ok{background:var(--gold)!important;color:var(--teal)!important}
+.dl{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
+.tag{display:inline-block;background:var(--teal);color:var(--gold-l);padding:2px 10px;border-radius:2px;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+</style>
+</head>
+<body>
+<div class="bar"><div class="bar__in"><span class="bar__brand">Вселенная ТИР · Эрик Хват</span><span class="bar__act"><a class="btn" href="materials.html">Все материалы</a><a class="btn" href="index.html">На сайт</a></span></div></div>
+<header class="hero"><div class="hero__tag">Telegram</div><h1>Оформление канала</h1><p>Название, адрес, аватарка, описание, закреплённый пост и картинка для приветствия. Всё в зелёно-золотом стиле сайта.</p><div class="orn"><i></i></div></header>
+<section><div class="wrap">
+<h2 class="sec-h"><small>Картинки</small>Скачать</h2>
+<div class="grid g2">
+<div class="card"><h3>Аватарка канала 640×640</h3><img style="max-width:260px;width:100%;border:1px solid var(--line)" src="img/tgchannel/tg-avatar-640.jpg" alt="Аватарка канала"><div class="dl"><a class="btn btn--ink btn--sm" href="img/tgchannel/tg-avatar-640.jpg" download>Скачать аватарку</a></div></div>
+<div class="card"><h3>Картинка для закреплённого поста</h3><img style="width:100%;border:1px solid var(--line)" src="img/tgchannel/tg-privetstvie-1280x720.jpg" alt="Приветствие канала"><div class="dl"><a class="btn btn--ink btn--sm" href="img/tgchannel/tg-privetstvie-1280x720.jpg" download>Скачать картинку</a></div></div>
+</div></div></section>
+<section><div class="wrap">
+<h2 class="sec-h"><small>Тексты</small>Что скопировать</h2>
+<div class="card" style="margin-bottom:16px"><h3>Название канала</h3><div class="post__t" id="g1">Вселенная ТИР · Эрик Хват</div><p style="margin-top:10px"><button class="btn btn--ink btn--sm" data-copy="g1">Копировать текст</button></p></div>
+<div class="card" style="margin-bottom:16px"><h3>Адрес канала (публичная ссылка)</h3><div class="post__t" id="g2">tir_erikhvat
+(если занято, добавьте цифру или слово: tir_erikhvat1, tir_erik)</div><p style="margin-top:10px"><button class="btn btn--ink btn--sm" data-copy="g2">Копировать текст</button></p></div>
+<div class="card" style="margin-bottom:16px"><h3>Описание канала (до 255 знаков)</h3><div class="post__t" id="g3">Вселенная ТИР: слово, звук, знание, путь. Мысли из книги «Архитектура сознания», практики для пишущих, музыка и песни. Автор: Эрик Хват. irektuhvatshin.ru</div><p style="margin-top:10px"><button class="btn btn--ink btn--sm" data-copy="g3">Копировать текст</button></p></div>
+<div class="card" style="margin-bottom:16px"><h3>Закреплённый пост (картинка: «Картинка для закреплённого поста»)</h3><div class="post__t" id="g4">Здравствуйте.
+
+Меня зовут Ирек Тухватшин. Под именем Эрик Хват я пишу стихи и прозу, создаю музыку и исследую то, как устроено человеческое сознание.
+
+Этот канал называется «Вселенная ТИР». В нём четыре направления:
+
+Слово — стихи, проза, книга «Архитектура сознания».
+Звук — музыка и песни, в том числе на заказ.
+Знание — практические гайды и упражнения для тех, кто хочет писать.
+Путь — метод «Маршрут»: как увидеть причину повторяющихся ситуаций.
+
+Я не обещаю готовых ответов. Я предлагаю наблюдать, пробовать и проверять на собственном опыте.
+
+Начните здесь:
+Бесплатный фрагмент книги: http://irektuhvatshin.ru/fragment.html
+Все материалы: http://irektuhvatshin.ru/oplata.html
+Бот по стихам: https://t.me/erikhvat_stihi_bot
+Бот по рассказам: https://t.me/erikhvat_rasskazy_bot
+Книга: http://irektuhvatshin.ru/kniga.html
+ВКонтакте: https://vk.ru/vselennaya_tir</div><p style="margin-top:10px"><button class="btn btn--ink btn--sm" data-copy="g4">Копировать текст</button></p></div>
+</div></section>
+<section><div class="wrap">
+<h2 class="sec-h"><small>Как загрузить</small>Пошагово</h2>
+<ol class="steps">
+<li><b>Создайте канал.</b> Telegram → «Новый канал». Вставьте название и описание, выберите «Публичный» и введите адрес.</li>
+<li><b>Аватарка.</b> Нажмите на фото канала и загрузите аватарку (Telegram обрежет её кругом).</li>
+<li><b>Закреплённый пост.</b> Опубликуйте пост: картинка + текст из блока выше, затем закрепите его.</li>
+<li><b>Контент-план.</b> Дальше публикуйте по плану: <a href="channel-plan.html">channel-plan.html</a>. Telegram позволяет запланировать публикации на неделю вперёд (удерживайте кнопку отправки → «Запланировать»).</li>
+<li><b>Ссылка на канал.</b> Добавьте её на сайт, в ботов и в подписи на Стихи.ру и Проза.ру.</li></ol>
+</div></section>
+<footer class="foot"><p>Эрик Хват · <a href="https://irektuhvatshin.ru">irektuhvatshin.ru</a> · <a href="https://t.me/erikhvat">t.me/erikhvat</a> · <a href="mailto:erikhvat@mail.ru">erikhvat@mail.ru</a></p></footer>
+<script>
+document.querySelectorAll('[data-copy]').forEach(function(b){
+  b.addEventListener('click',function(){
+    var el=document.getElementById(b.getAttribute('data-copy'));var txt=el.innerText;
+    function done(){var o=b.textContent;b.textContent='Скопировано';b.classList.add('ok');setTimeout(function(){b.textContent=o;b.classList.remove('ok')},1600)}
+    function fb(){var ta=document.createElement('textarea');ta.value=txt;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy')}catch(e){};document.body.removeChild(ta);done()}
+    if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(txt).then(done,fb)}else fb();
+  });
+});
+</script>
+</body>
+</html>
