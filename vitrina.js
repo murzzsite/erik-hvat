@@ -106,12 +106,12 @@
   /* фильтры и поиск */
   const grid = $('#grid');
   if (grid) {
-    const st = { kind: '', mood: '', vocal: '', q: '' };
+    const st = { kind: '', lang: '', q: '' };
     const run = () => {
       let n = 0;
       cards.forEach(c => {
-        const ok = (!st.kind || c.dataset.kind === st.kind) && (!st.mood || c.dataset.mood === st.mood) &&
-          (!st.vocal || c.dataset.vocal === st.vocal) && (!st.q || c.dataset.title.includes(st.q));
+        const ok = (!st.kind || c.dataset.kind === st.kind) && (!st.lang || c.dataset.lang === st.lang) &&
+          (!st.q || c.dataset.title.includes(st.q));
         c.hidden = !ok; if (ok) n++;
       });
       $('#cnt').textContent = 'Найдено: ' + n + ' из ' + cards.length;
@@ -124,7 +124,7 @@
     }));
     $('#q').addEventListener('input', e => { st.q = e.target.value.trim().toLowerCase(); run(); });
     $('#clear').onclick = () => {
-      st.kind = st.mood = st.vocal = st.q = ''; $('#q').value = '';
+      st.kind = st.lang = st.q = ''; $('#q').value = '';
       $$('.vt-chips').forEach(g => $$('button', g).forEach((x, i) => x.classList.toggle('on', i === 0)));
       run();
     };
