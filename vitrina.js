@@ -136,7 +136,7 @@
       const r = await fetch(LEAD, { method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: fd.name, contact: fd.contact, comment, source: 'vitrina' }) });
       if (!r.ok) throw new Error(r.status);
-      msg.textContent = 'Заявка отправлена. Автор свяжется с вами.';
+      msg.textContent = 'Заявка отправлена. Автор свяжется с Вами.';
       form.reset(); goal('vitrina_request');
     } catch (err) {
       msg.textContent = 'Не получилось отправить. Напишите автору в Telegram: t.me/erikhvat';
