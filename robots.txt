@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://irektuhvatshin.ru/sitemap.xml
