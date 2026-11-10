@@ -102,3 +102,7 @@
 @media(max-width:560px){.vt-bar__info{flex-basis:90px}.vt-bar__t{display:none}.vt-bar__in{gap:6px}}
 body.vt{padding-bottom:76px;}
 @media(prefers-reduced-motion:reduce){.vt-card,.vt-lb,.is-playing .vt-wave i{animation:none}}
+.vt-genre{display:flex;flex-wrap:wrap;gap:8px;align-items:center;}
+.vt-proj{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);padding:5px 4px;}
+.vt-logo{width:22px;height:16px;color:var(--ink);}
+.vt-proj--irek-tu{color:var(--ink);}
