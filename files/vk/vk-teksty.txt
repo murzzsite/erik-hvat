@@ -17,7 +17,7 @@
 
 Нажмите «Написать сообщение» и «Начать»: бот подскажет, с чего удобнее начать.
 
-Сайт: http://irektuhvatshin.ru
+Сайт: https://irektuhvatshin.ru
 Почта: erikhvat@mail.ru
 
 ПРИВЕТСТВИЕ ДЛЯ СООБЩЕНИЙ:
@@ -38,16 +38,16 @@
 Я не обещаю готовых ответов. Я предлагаю наблюдать, пробовать и проверять на собственном опыте.
 
 Первый шаг можно сделать сегодня:
-Бесплатный фрагмент книги: http://irektuhvatshin.ru/fragment.html
-Все материалы: http://irektuhvatshin.ru/oplata.html
+Бесплатный фрагмент книги: https://irektuhvatshin.ru/fragment.html
+Все материалы: https://irektuhvatshin.ru/oplata.html
 
 Напишите сообществу сообщение, и бот подскажет, с чего начать.
 
 МЕНЮ:
-Материалы — http://irektuhvatshin.ru/oplata.html
-Фрагмент книги — http://irektuhvatshin.ru/fragment.html
-Гайд «Создавайте свои рассказы» — http://irektuhvatshin.ru/gayd-proza.html
-Гайд «Создавайте свои стихи» — http://irektuhvatshin.ru/gayd-poeziya.html
-Упражнение «Развитие эстетического вкуса» — http://irektuhvatshin.ru/uprazhnenie.html
-Песни на заказ — http://irektuhvatshin.ru/zvuk.html
-Сайт — http://irektuhvatshin.ru
+Материалы — https://irektuhvatshin.ru/oplata.html
+Фрагмент книги — https://irektuhvatshin.ru/fragment.html
+Гайд «Создавайте свои рассказы» — https://irektuhvatshin.ru/gayd-proza.html
+Гайд «Создавайте свои стихи» — https://irektuhvatshin.ru/gayd-poeziya.html
+Упражнение «Развитие эстетического вкуса» — https://irektuhvatshin.ru/uprazhnenie.html
+Песни на заказ — https://irektuhvatshin.ru/zvuk.html
+Сайт — https://irektuhvatshin.ru
