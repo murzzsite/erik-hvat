@@ -358,3 +358,7 @@ section{padding:100px 0;position:relative;}
 /* кнопка «Композиции на продажу» в меню */
 .nav a.nav-cta{color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:6px 14px;}
 .nav a.nav-cta:hover,.nav a.nav-cta.active{background:var(--accent);color:#181206;}
+
+/* H1 в виде ярлыка раздела и заголовок «Обо мне» */
+h1.eyebrow,.page-hero h1.eyebrow{margin:0 0 16px;line-height:1.4;font-size:13px;font-family:var(--sans);font-weight:700;}
+.h1-section{font-size:clamp(28px,4vw,46px);}

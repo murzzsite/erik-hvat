@@ -128,3 +128,19 @@
   }, { threshold: 0.4 });
   counters.forEach(el => countIO.observe(el));
 })();
+
+/* goals:start — цели Яндекс Метрики (JS-события) */
+(() => {
+  const goal = n => { try { window.ym && window.YM_ID && ym(window.YM_ID, 'reachGoal', n); } catch (e) {} };
+  document.addEventListener('click', e => {
+    const a = e.target.closest('a[href]');
+    if (!a) return;
+    const h = a.getAttribute('href') || '';
+    if (/payform|prodamus/.test(h)) goal('click_buy');
+    else if (/t\.me\/erikhvat(?!_)/.test(h)) goal('click_telegram');
+    else if (/vitrina\.html/.test(h)) goal('click_vitrina');
+    else if (/band\.link|music\.yandex|open\.spotify|music\.vk/.test(h)) goal('click_listen');
+  });
+  document.addEventListener('submit', e => { if (e.target.matches('form.leadForm')) goal('form_submit'); }, true);
+})();
+/* goals:end */
