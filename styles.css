@@ -354,3 +354,7 @@ section{padding:100px 0;position:relative;}
 @media (max-width:900px){.two-col{grid-template-columns:1fr;}}
 .section-title-row{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:8px;}
 .pill-status{display:inline-block;padding:5px 14px;border-radius:999px;background:rgba(201,164,92,.12);color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--line);}
+
+/* кнопка «Композиции на продажу» в меню */
+.nav a.nav-cta{color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:6px 14px;}
+.nav a.nav-cta:hover,.nav a.nav-cta.active{background:var(--accent);color:#181206;}

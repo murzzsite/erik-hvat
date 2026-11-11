@@ -106,3 +106,27 @@ body.vt{padding-bottom:76px;}
 .vt-proj{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);padding:5px 4px;}
 .vt-logo{width:22px;height:16px;color:var(--ink);}
 .vt-proj--irek-tu{color:var(--ink);}
+
+/* карточки без обложки: цвета проекта по брендбуку */
+.vt-tile{flex:none;width:132px;height:132px;border-radius:14px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative;color:#fff;box-shadow:0 10px 24px -14px rgba(0,0,0,.7);}
+.vt-tile::after{content:'';position:absolute;inset:0;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(255,255,255,.1);pointer-events:none;}
+.vt-tile__proj{display:flex;align-items:center;gap:6px;font-size:9.5px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;opacity:.9;}
+.vt-tile__proj .vt-logo{width:15px;height:11px;}
+.vt-tile__title{font-family:var(--display);font-weight:600;font-size:17px;line-height:1.1;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;}
+.vt-tile__sub{font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;opacity:.7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.vt-tile--irek{background:radial-gradient(circle at 78% 18%,rgba(123,97,255,.55),transparent 55%),radial-gradient(circle at 12% 95%,rgba(46,109,255,.45),transparent 55%),linear-gradient(160deg,#121A2B,#0A0F1A);}
+.vt-tile--irek .vt-tile__title{font-family:var(--sans);font-weight:600;letter-spacing:.04em;font-size:14px;}
+.vt-tile--irek .vt-tile__proj{color:#00E0D1;}
+.vt-tile--en{background:radial-gradient(circle at 80% 12%,rgba(177,58,140,.55),transparent 55%),radial-gradient(circle at 10% 95%,rgba(255,106,61,.4),transparent 52%),linear-gradient(165deg,#13243A,#0D1117);}
+.vt-tile--en .vt-tile__title{font-family:var(--sans);font-weight:500;letter-spacing:.14em;text-transform:uppercase;font-size:12px;line-height:1.35;}
+.vt-tile--en .vt-tile__proj{color:#FF6A3D;}
+.vt-tile--ru{background:radial-gradient(circle at 80% 10%,rgba(111,122,135,.35),transparent 55%),radial-gradient(circle at 10% 100%,rgba(201,183,156,.28),transparent 55%),linear-gradient(165deg,#2D2D30,#1A1A1D);}
+.vt-tile--ru .vt-tile__title{font-style:italic;font-weight:500;color:#F7F3EE;}
+.vt-tile--ru .vt-tile__proj{color:#C9B79C;}
+.vt-tile--lg{width:min(320px,34vw);height:auto;aspect-ratio:1;padding:22px;border-radius:18px;}
+.vt-tile--lg .vt-tile__title{font-size:30px;-webkit-line-clamp:4;}
+.vt-tile--irek.vt-tile--lg .vt-tile__title{font-size:22px;}
+.vt-tile--en.vt-tile--lg .vt-tile__title{font-size:19px;}
+.vt-tile--lg .vt-tile__proj,.vt-tile--lg .vt-tile__sub{font-size:12px;}
+.vt-tile--lg .vt-tile__proj .vt-logo{width:20px;height:14px;}
+@media(max-width:560px){.vt-tile,.vt-tile--lg{width:100%;height:auto;aspect-ratio:1;max-width:320px;padding:16px;}.vt-tile__title{font-size:22px!important;}}
