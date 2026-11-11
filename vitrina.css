@@ -130,3 +130,24 @@ body.vt{padding-bottom:76px;}
 .vt-tile--lg .vt-tile__proj,.vt-tile--lg .vt-tile__sub{font-size:12px;}
 .vt-tile--lg .vt-tile__proj .vt-logo{width:20px;height:14px;}
 @media(max-width:560px){.vt-tile,.vt-tile--lg{width:100%;height:auto;aspect-ratio:1;max-width:320px;padding:16px;}.vt-tile__title{font-size:22px!important;}}
+
+/* логотип проекта на карточке без обложки */
+.vt-tile{align-items:center;text-align:center;justify-content:flex-start;gap:0;padding:10px 8px 10px;}
+.vt-tile__logo{display:flex;flex-direction:column;align-items:center;gap:4px;margin-top:6px;flex:1 1 auto;justify-content:center;width:100%;}
+.vt-tile__logo b{font-family:var(--sans);font-weight:600;font-size:11px;letter-spacing:.3em;text-indent:.3em;line-height:1;}
+.vt-tile__logo small{font-size:5.5px;letter-spacing:.2em;text-transform:uppercase;opacity:.7;line-height:1.3;}
+.vt-tile__logo img{width:82%;height:auto;display:block;}
+.vt-tile__logo .vt-logo{width:30px;height:22px;color:#fff;margin-bottom:2px;}
+.vt-tile--irek .vt-tile__logo b{color:#fff;}
+.vt-tile--en .vt-tile__logo b{font-size:12px;color:#F2EDE6;}
+.vt-tile__title{font-size:12px!important;text-align:center;line-height:1.2;-webkit-line-clamp:2!important;margin-top:4px;}
+.vt-tile--irek .vt-tile__title,.vt-tile--en .vt-tile__title{font-size:10px!important;letter-spacing:.06em;text-transform:none;font-weight:600;}
+.vt-tile__sub{font-size:7px;margin-top:3px;}
+.vt-tile--lg{padding:20px 16px;}
+.vt-tile--lg .vt-tile__logo b{font-size:20px;}
+.vt-tile--lg .vt-tile__logo small{font-size:9px;}
+.vt-tile--lg .vt-tile__logo .vt-logo{width:56px;height:40px;}
+.vt-tile--lg .vt-tile__title{font-size:22px!important;-webkit-line-clamp:3!important;margin-top:10px;}
+.vt-tile--irek.vt-tile--lg .vt-tile__title,.vt-tile--en.vt-tile--lg .vt-tile__title{font-size:16px!important;}
+.vt-tile--lg .vt-tile__sub{font-size:11px;}
+@media(max-width:560px){.vt-tile__logo b{font-size:15px;}.vt-tile__logo small{font-size:8px;}.vt-tile__title{font-size:18px!important;}.vt-tile__sub{font-size:10px;}}
