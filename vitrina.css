@@ -151,3 +151,11 @@ body.vt{padding-bottom:76px;}
 .vt-tile--irek.vt-tile--lg .vt-tile__title,.vt-tile--en.vt-tile--lg .vt-tile__title{font-size:16px!important;}
 .vt-tile--lg .vt-tile__sub{font-size:11px;}
 @media(max-width:560px){.vt-tile__logo b{font-size:15px;}.vt-tile__logo small{font-size:8px;}.vt-tile__title{font-size:18px!important;}.vt-tile__sub{font-size:10px;}}
+
+/* теги песни: кнопка раскрывает список */
+.vt-tagsbox{display:inline-block;}
+.vt-tagsbox summary{list-style:none;cursor:pointer;}
+.vt-tagsbox summary::-webkit-details-marker{display:none;}
+.vt-tagslist{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;max-width:560px;}
+.vt-tagslist span{font-size:13px;font-weight:600;color:var(--ink-soft);background:var(--bg-alt);border:1px solid var(--line);padding:5px 12px;border-radius:999px;}
+.vt-tagslist span::before{content:'#';color:var(--accent);margin-right:2px;}
