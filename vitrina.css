@@ -186,3 +186,5 @@ body.vt{padding-bottom:76px;}
 .vt-song>*{min-width:0;}
 .vt-start__t small{white-space:nowrap;}
 @media(max-width:420px){.vt-start__t{left:12px;right:8px;}.vt-start__t small{font-size:10.5px;letter-spacing:.04em;}.vt-start__t b{font-size:18px;}}
+@media(max-width:380px){.vt-wave{gap:1px;}.vt-wave i{min-width:1px;}}
+.vt-wave{overflow:hidden;}
