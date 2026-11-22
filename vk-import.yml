@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2026-11-22 19:32"><shop><name>Вселенная ТИР</name><company>Эрик Хват</company><url>https://irektuhvatshin.ru/</url>
+<currencies><currency id="RUB" rate="1"/></currencies><categories>
+<category id="1">Услуги</category>
+<category id="2">Книга и гайды</category>
+<category id="3">Песни для лицензирования</category>
+<category id="4">Витрина</category>
+</categories><offers>
+<offer id="s-diagnostika" available="true"><url>https://irektuhvatshin.ru/kniga-kupit.html</url><price>0</price><currencyId>RUB</currencyId><categoryId>1</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-s-diagnostika.png</picture><name>Диагностика</name><description>Бесплатно при покупке книги «Архитектура сознания».
+
+Эта встреча проходит со мной. На ней мы определим суть Вашего запроса и выясним, какая часть внутреннего механизма даёт сбой и мешает достигать устойчивых результатов.
+Диагностику провожу онлайн, в формате аудиозвонка.
+Если Вам нужна моя помощь, на диагностике мы обсудим индивидуальный план.
+Если Вашему случаю нужен другой специалист, я честно об этом сообщу.
+Диагностику предоставляю в подарок за покупку моей книги «Архитектура сознания».</description></offer>
+<offer id="s-marshrut" available="true"><url>https://irektuhvatshin.ru/put.html</url><price>1500</price><currencyId>RUB</currencyId><categoryId>1</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-s-marshrut.png</picture><name>Метод «Маршрут»</name><description>От 1 500 ₽ в час.
+
+Это моя авторская методика восстановления сознания в шесть этапов:
+1. диагностика проблемы;
+2. составление запроса на разрешение этой проблемы;
+3. восстановление способности ясно смотреть на эту проблему;
+4. очистка умственных программ от эмоциональных зарядов и чужого мнения;
+5. восстановление этих умственных программ;
+6. проверка результата работы.
+Методика помогает разобраться, почему Вы застреваете в одних и тех же ситуациях, и возвращает способность выбираться из них самостоятельно.
+
+Острая ситуация: мини-формат работы 3 000–5 000 ₽/час, до 10 часов.
+Хроническая проблема: 1 500–3 000 ₽/час, средний формат работы до 35 часов.
+Обширный формат работы от 35 часов при сложных ситуациях. Станет понятно во время диагностики.
+Для студентов, пенсионеров и людей с небольшим доходом есть льготные цены.
+Предоставляю услугу только по аудиосвязи.</description></offer>
+<offer id="s-pesnya-na-zakaz" available="true"><url>https://irektuhvatshin.ru/tvorchestvo.html</url><currencyId>RUB</currencyId><categoryId>1</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-s-pesnya-na-zakaz.png</picture><name>Песня на заказ</name><description>Стоимость индивидуальная.
+
+Пишу песни и музыку на заказ для певцов и музыкантов, диджеев, ресторанов, киностудий, рекламных и туристических компаний, производителей смартфонов (рингтоны).
+Не занимаюсь рутинными поздравлениями: работаю с теми, кому нужна атмосферная авторская композиция.
+Процесс создания композиции: техническое задание, текст, музыка, демо, правки, финал.
+Стоимость обговариваем в ходе согласования технического задания, до начала работы.</description></offer>
+<offer id="s-shag-v-poeziyu" available="true"><url>https://irektuhvatshin.ru/tvorchestvo.html</url><price>45000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-s-shag-v-poeziyu.png</picture><name>Обучение «Шаг в поэзию»</name><description>Скидка 10% для тех, кто купил гайд по поэзии (индивидуальное обучение в видео режиме: 45 000 ₽, срок обучения 2 недели).
+
+Это мой авторский тренинг для желающих начать писать стихи или улучшить свои навыки в пять этапов:
+1. разбор терминологии;
+2. создание проекта будущего стихотворения;
+3. написание стихотворения;
+4. финальная редактура;
+5. завершение (отзыв, именная грамота, публикация в соцсетях и на Стихи.ру).
+Тренинг зарегистрирован как ноу-хау (ЕДРИД № 220.018.15E6, 21.04.2020).
+Гарантированный итог: Ваше собственное законченное стихотворение и именная грамота.
+Подходит любому уровню, опыт не обязателен.
+
+P.S. Тренинг временно не предоставляю. Уточняйте срок запуска онлайн-школы.</description></offer>
+<offer id="s-shag-v-prozu" available="true"><url>https://irektuhvatshin.ru/tvorchestvo.html</url><price>45000</price><currencyId>RUB</currencyId><categoryId>1</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-s-shag-v-prozu.png</picture><name>Обучение «Шаг в прозу»</name><description>Скидка 10% для тех, кто купил гайд по прозе (индивидуальное обучение в видео режиме: 45 000 ₽, срок обучения 2 недели).
+
+Это мой авторский тренинг для желающих начать писать художественные рассказы или улучшить свои навыки в пять этапов:
+1. разбор терминологии;
+2. создание проекта будущего рассказа;
+3. написание рассказа;
+4. финальная редактура;
+5. завершение (отзыв, именная грамота, публикация в соцсетях и на Проза.ру).
+Тренинг зарегистрирован как ноу-хау (ЕДРИД № 220.018.15E7, 21.04.2020).
+Гарантированный итог: Ваш собственный законченный рассказ и именная грамота.
+Подходит любому уровню, опыт не обязателен.
+
+P.S. Тренинг временно не предоставляю. Уточняйте срок запуска онлайн-школы.</description></offer>
+<offer id="s-licenziya" available="true"><url>https://irektuhvatshin.ru/vitrina.html</url><currencyId>RUB</currencyId><categoryId>1</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-s-licenziya.png</picture><name>Лицензия на песню или музыку</name><description>Стоимость индивидуальная.
+
+Выберите готовую песню или композицию на витрине и получите право исполнять её и выпускать под своим именем.
+Лицензия неисключительная: исключительные права на произведение остаются у меня. Детали прав артиста обговариваем индивидуально.
+Моё авторство указывается везде: «Музыка и текст — Тухватшин Ирек Равилович (Эрик Хват)».</description></offer>
+<offer id="t-kniga" available="true"><url>https://link.payform.ru/?paymentLinkId=bf882553-d8c0-4028-a882-e142b9a2e9c8</url><price>700</price><currencyId>RUB</currencyId><categoryId>2</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-t-kniga.png</picture><name>Книга «Архитектура сознания»</name><description>Электронная книга (PDF) об устройстве сознания: метод «Маршрут» и 32 пары фундаментальных программ сознания, в которых находят отражение вопросы существования человека и механизмы принятия решений.
+В подарок при покупке книги предоставляется индивидуальная диагностика со мной.
+Оплата книги производится картой или через СБП, без VPN.
+Ссылка на файл придёт на e-mail, который Вы укажете при оплате.</description></offer>
+<offer id="t-gayd-proza" available="true"><url>https://link.payform.ru/?paymentLinkId=cff64431-aae2-4247-8745-bdd51e027a62</url><price>650</price><currencyId>RUB</currencyId><categoryId>2</categoryId><picture>https://irektuhvatshin.ru/img/guides/proza.jpg</picture><name>Гайд «Создавайте свои рассказы»</name><description>Семь понятий, на которых держится рассказ, и шесть шагов от темы и замысла до редактуры.
+Скидка 10% на тренинг «Шаг в прозу» после его запуска.
+Ссылка на файл придёт на Ваш e-mail после оплаты.</description></offer>
+<offer id="t-gayd-poeziya" available="true"><url>https://link.payform.ru/?paymentLinkId=bd135cf9-715d-47c7-b7b1-d3dab25d93c7</url><price>550</price><currencyId>RUB</currencyId><categoryId>2</categoryId><picture>https://irektuhvatshin.ru/img/guides/poeziya.jpg</picture><name>Гайд «Создавайте свои стихи»</name><description>Восемь заблуждений, которые мешают писать стихи, с упражнениями к каждому, и пять шагов от мысли к стихотворению.
+Скидка 10% на тренинг «Шаг в поэзию» после его запуска.
+Ссылка на файл придёт на Ваш e-mail после оплаты.</description></offer>
+<offer id="t-uprazhnenie" available="true"><url>https://link.payform.ru/?paymentLinkId=977663a1-c0bf-4e69-9909-50bf89e95061</url><price>500</price><currencyId>RUB</currencyId><categoryId>2</categoryId><picture>https://irektuhvatshin.ru/img/guides/uprazhnenie.jpg</picture><name>Упражнение «Развитие эстетического вкуса»</name><description>Девять шагов наблюдения за предметом и пять заданий, которые помогут развить эстетический вкус в домашних условиях.
+Упражнение взято из тренингов «Шаг в поэзию» и «Шаг в прозу». PDF на 9 страниц.
+Ссылка на файл придёт на Ваш e-mail после оплаты.</description></offer>
+<offer id="t-komplekt-proza" available="true"><url>https://link.payform.ru/?paymentLinkId=7e589106-33fd-4f05-a71b-eb8391af9c70</url><price>950</price><currencyId>RUB</currencyId><categoryId>2</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-t-komplekt-proza.png</picture><name>Комплект: гайд по прозе + упражнение</name><description>«Создавайте свои рассказы» и «Развитие эстетического вкуса».
+Вместе 1 150 ₽, по комплекту 950 ₽: экономия 200 ₽.
+Скидка 10% на тренинг «Шаг в прозу» после его запуска.
+Ссылка на файлы придёт на Ваш e-mail после оплаты.</description></offer>
+<offer id="t-komplekt-poeziya" available="true"><url>https://link.payform.ru/?paymentLinkId=26fa1e0b-3f91-48ad-a107-ba20c60f91ae</url><price>900</price><currencyId>RUB</currencyId><categoryId>2</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-t-komplekt-poeziya.png</picture><name>Комплект: гайд по поэзии + упражнение</name><description>«Создавайте свои стихи» и «Развитие эстетического вкуса».
+Вместе 1 050 ₽, по комплекту 900 ₽: экономия 150 ₽.
+Скидка 10% на тренинг «Шаг в поэзию» после его запуска.
+Ссылка на файлы придёт на Ваш e-mail после оплаты.</description></offer>
+<offer id="v-vitrina" available="true"><url>https://irektuhvatshin.ru/vitrina.html</url><currencyId>RUB</currencyId><categoryId>4</categoryId><picture>https://irektuhvatshin.ru/img/vk-cards/vk-vitrina.png</picture><name>Витрина: песни и музыка для артистов</name><description>Готовые песни и музыка для артистов. Слушайте фрагменты и запрашивайте неисключительную лицензию.
+В витрине русские и английские песни и инструментальная музыка. Цена лицензии индивидуальная, условия обговариваем лично.</description></offer>
+<offer id="song-vse-horosho" available="true"><url>https://irektuhvatshin.ru/pesnya-vse-horosho.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/poka-goryat-ogni-full.jpg</picture><name>Всё хорошо</name><description>«Всё хорошо» — светлая, мечтательная композиция о любви как пространстве покоя, обновления и душевного возрождения. Через образы солнечных полей, горных ручьёв и волшебного мира раскрывается чувство близости, способное примирить с реальностью, вернуть утраченную гармонию и подарить силы для нового полёта.
+
+Исполнитель: IREK TU. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-poka-ty-ryadom" available="true"><url>https://irektuhvatshin.ru/pesnya-poka-ty-ryadom.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/poka-ty-ryadom-full.jpg</picture><name>Пока ты рядом</name><description>«Пока ты рядом» — искреннее романтическое признание о любви, которая становится источником жизненной энергии, вдохновения и душевного равновесия. Образ любимого человека как маяка и путеводной звезды подчёркивает его особую роль в судьбе героя: пока они вместе, отступают тревоги, возвращается радость, а жизнь обретает крылья и новые горизонты.
+
+Исполнитель: IREK TU. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-vesnoy-vospryanet-duh" available="true"><url>https://irektuhvatshin.ru/pesnya-vesnoy-vospryanet-duh.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ava-irek-tu-full.jpg</picture><name>Весной воспрянет дух</name><description>«Весной воспрянет дух» — философская композиция о выходе из внутренней зимы, преодолении апатии и возвращении вкуса к жизни. Через образы тающего снега, весеннего дождя и треснувшего льда песня передаёт надежду на обновление: даже самая затяжная хандра не вечна, и однажды душа вновь расправит крылья, сбросив груз прошлого.
+
+Исполнитель: IREK TU. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-ved-ya-lyublyu-tebya" available="true"><url>https://irektuhvatshin.ru/pesnya-ved-ya-lyublyu-tebya.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ved-ya-lyublyu-tebya-full.jpg</picture><name>Ведь я люблю тебя</name><description>«Ведь я люблю тебя» — нежная, романтичная композиция о любви, которая становится главным светом и смыслом жизненного пути. Образы пылающего сердца, ночных звёзд и лунной улыбки создают атмосферу возвышенного чувства, в котором преданность не знает времени, а каждый шаг навстречу любимому становится подтверждением вечного обещания быть рядом.
+
+Исполнитель: IREK TU. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-kolybelnaya" available="true"><url>https://irektuhvatshin.ru/pesnya-kolybelnaya.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ava-ru-erik-hvat-full.jpg</picture><name>Колыбельная</name><description>«Колыбельная» — нежная, глубоко личная песня-напутствие, в которой родитель обращается к ребёнку, размышляя о времени, взрослении и предстоящем жизненном пути. За ласковыми интонациями скрывается мудрое признание: мир принесёт и радость, и испытания, но среди всего преходящего есть нечто вечное — любовь, память о близких и бесценный свет детской улыбки.
+
+Исполнитель: Эрик Хват. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-moy-lyubimyy-chelovek" available="true"><url>https://irektuhvatshin.ru/pesnya-moy-lyubimyy-chelovek.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ava-ru-erik-hvat-full.jpg</picture><name>Мой любимый человек</name><description>«Мой любимый человек» — пронзительная лирическая композиция о тоске по близкому человеку, чьё отсутствие лишает мир красок, звуков и привычного смысла. Образ бушующего моря и двух чаек, рвущихся сквозь тучи, передаёт внутреннюю бурю героя, в которой память о любимой становится сильнее всех чувств и не позволяет окончательно потерять надежду на возвращение.
+
+Исполнитель: Эрик Хват. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-ten-v-pustote" available="true"><url>https://irektuhvatshin.ru/pesnya-ten-v-pustote.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ava-ru-erik-hvat-full.jpg</picture><name>Тень в пустоте</name><description>«Тень в пустоте» — атмосферная, меланхоличная композиция о невидимом присутствии человека, одиночестве и стремлении раствориться за пределами привычного мира. Лирический герой словно существует между вечностью и мгновением, не требуя памяти или привязанности, находя своё убежище в мечте и тишине.
+
+Исполнитель: Эрик Хват. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-sudby-granitsa" available="true"><url>https://irektuhvatshin.ru/pesnya-sudby-granitsa.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ava-ru-erik-hvat-full.jpg</picture><name>Судьбы граница</name><description>«Судьбы граница» — философская композиция о внутреннем преображении, преодолении жизненных испытаний и поиске нового смысла. Герой оставляет позади боль, притворство и разочарования, обретает мудрость, но понимает, что даже победа над внешними препятствиями не избавляет от тоски; именно поэтому он выбирает смотреть на мир иначе и создавать собственную реальность.
+
+Исполнитель: Эрик Хват. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-ya-hochu-zhit-prosche" available="true"><url>https://irektuhvatshin.ru/pesnya-ya-hochu-zhit-prosche.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ava-irek-tu-full.jpg</picture><name>Я хочу жить проще</name><description>«Я хочу жить проще» — философская, светлая композиция о стремлении к внутренней свободе, душевной гармонии и жизни без навязанных обязательств и чужих ожиданий. За желанием уйти от суеты и обрести покой раскрывается более глубокая идея: не замыкаться в собственном мире, а сохранять сочувствие к другим, искать ответы на вечные вопросы и верить, что под звёздным небом найдётся место для каждого.
+
+Исполнитель: IREK TU. Русская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-it-s-all-right" available="true"><url>https://irektuhvatshin.ru/pesnya-it-s-all-right.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ava-irek-tu-full.jpg</picture><name>It&#x27;s all right</name><description>«It&#x27;s All Right» («Всё хорошо») — светлая, лирическая композиция о встрече, которая возвращает внутреннее равновесие и помогает обрести силы после жизненных испытаний. В её образах переплетаются солнечный свет, горные потоки, волшебная страна и звёздный полёт, а повторяющееся «It&#x27;s all right» звучит как тихое обещание: всё будет хорошо.
+
+Исполнитель: IREK TU. Английская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-strange-wind" available="true"><url>https://irektuhvatshin.ru/pesnya-strange-wind.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/freedom-of-thought-full.jpg</picture><name>Strange Wind</name><description>«Strange Wind» («Ветер-бродяга») — атмосферная композиция о беспокойной, свободолюбивой стихии, в которой угадывается живой человеческий характер. Неукротимый ветер, мечущийся между тоской и гневом, становится символом внутреннего беспокойства и невозможности обрести покой в тесных границах привычного мира — ведь ему нужны лишь простор и свобода.
+
+Исполнитель: Erik Hvat. Английская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-behind-the-sun" available="true"><url>https://irektuhvatshin.ru/pesnya-behind-the-sun.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/behind-the-sun-full.jpg</picture><name>Behind the sun</name><description>«Behind the Sun» («За солнцем») — эмоциональная композиция о жажде света, свободе и неукротимом стремлении к мечте, которая становится сильнее любых сомнений. Сквозь холод, тени прошлого и внутреннюю пустыню герой следует за зовом сердца, с каждым шагом освобождаясь от оков и веря, что впереди обязательно наступит тепло.
+
+Исполнитель: Erik Hvat. Английская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-the-demon-in-the-shadow" available="true"><url>https://irektuhvatshin.ru/pesnya-the-demon-in-the-shadow.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/wings-of-madness-full.jpg</picture><name>The demon in the shadow</name><description>«The demon in the shadow» («Демон в тени») — мрачная, мистическая композиция о внутреннем противостоянии творческого сознания собственным страхам, навязчивым мыслям и разрушительным импульсам. Электрические образы музыки, оживающих рифм и демона, скрывающегося в глубине души, создают напряжённую атмосферу борьбы за разум и свет, который так легко потерять, но невозможно перестать искать.
+
+Исполнитель: Erik Hvat. Английская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-cinema" available="true"><url>https://irektuhvatshin.ru/pesnya-cinema.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/cinema-full.jpg</picture><name>Cinema</name><description>«Cinema» («Кинотеатр») — меланхоличная композиция о человеке, который наблюдает за жизнью словно с экрана, оставаясь один на один со своими воспоминаниями и мечтами. За печалью и ощущением отстранённости скрывается надежда на встречу, способную разжечь внутренний огонь, освободить от тяжести прошлого и вернуть радость настоящего.
+
+Исполнитель: Erik Hvat. Английская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-the-border-of-fate" available="true"><url>https://irektuhvatshin.ru/pesnya-the-border-of-fate.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/the-border-of-fate-full.jpg</picture><name>The Border of Fate</name><description>«The Border of Fate» («Судьбы граница») — философская композиция о пересечении невидимой границы между прошлым и новым пониманием жизни. Пройдя через испытания, победив обман и жестокость, герой обретает мудрость, но сталкивается с тоской от несбывшихся поисков; песня раскрывает непростой путь к внутреннему равновесию и осознанию ценности постоянства.
+
+Исполнитель: Erik Hvat. Английская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+<offer id="song-i-m-fin" available="true"><url>https://irektuhvatshin.ru/pesnya-i-m-fin.html</url><currencyId>RUB</currencyId><categoryId>3</categoryId><picture>https://irektuhvatshin.ru/img/vitrina/ava-irek-tu-full.jpg</picture><name>I&#x27;m fin</name><description>«I&#x27;m fin» («У меня всё путём») — лаконичная, меланхоличная композиция о внутренней усталости, потерянности и желании на время отстраниться от привычного мира. За простым, почти разговорным припевом скрывается попытка убедить себя, что всё в порядке, несмотря на фальшивые маски, городской шум и тревогу перед тишиной и новым днём.
+
+Исполнитель: IREK TU. Английская версия.
+Лицензия неисключительная, стоимость и условия индивидуальные. Послушать фрагмент и запросить лицензию можно на странице песни.</description></offer>
+</offers></shop></yml_catalog>
