@@ -48,6 +48,8 @@ for it in sorted(sched, key=lambda x: x['date']):
         t = t.replace('</urlset>', '  <url><loc>%s</loc><lastmod>%s</lastmod></url>\n</urlset>' % (loc, it['date']))
         return re.sub(r'(<loc>%s/blog\.html</loc><lastmod>)[^<]*' % re.escape(BASE), r'\g<1>' + today, t)
     rw('sitemap.xml', add_map)
+    for extra in it.get('replace', []):   # страницы, которые обновляются в день выхода статьи (например, словарь)
+        shutil.copyfile(os.path.join(Q, extra), extra)
     it['published'] = True
     done.append(slug)
 
