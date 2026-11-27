@@ -99,11 +99,11 @@
   const grid = $('#grid');
   if (grid) {
     const PAGE = +grid.dataset.page || 24;
-    const st = { lang: '', q: '' };
+    const st = { lang: '', q: '', artist: new URLSearchParams(location.search).get('artist') || '' };
     let shown = PAGE;
     const run = reset => {
       if (reset) shown = PAGE;
-      const match = $$('.vt-card', grid).filter(c => (!st.lang || c.dataset.lang === st.lang) && (!st.q || c.dataset.title.includes(st.q)));
+      const match = $$('.vt-card', grid).filter(c => (!st.lang || c.dataset.lang === st.lang) && (!st.artist || c.dataset.artist === st.artist) && (!st.q || c.dataset.title.includes(st.q)));
       $$('.vt-card', grid).forEach(c => { c.hidden = true; });
       match.forEach((c, i) => { c.hidden = i >= shown; });
       $('#cnt').textContent = 'Найдено: ' + match.length + ' из ' + $$('.vt-card', grid).length;
@@ -121,6 +121,20 @@
     $('#q').addEventListener('input', e => { st.q = e.target.value.trim().toLowerCase().replace(/ё/g, 'е'); run(true); });
     $('#more').onclick = () => { shown += PAGE; run(); };
     $('#clear').onclick = () => { st.lang = st.q = ''; $('#q').value = ''; $$('.vt-chips button').forEach(x => x.classList.remove('on')); run(true); };
+    /* пометка «показан один артист» (ссылки из раздела «Звук») */
+    const note = document.createElement('p');
+    note.id = 'artistNote';
+    note.style.cssText = 'margin:0 0 18px;color:var(--ink-soft);font-size:15px';
+    note.hidden = true;
+    grid.parentNode.insertBefore(note, $('.vt-tools'));
+    const artistUI = () => {
+      const c = st.artist && $('.vt-card[data-artist="' + st.artist + '"] .vt-proj', grid);
+      note.hidden = !(st.artist && c);
+      if (!note.hidden) note.innerHTML = 'Показаны композиции артиста <b></b>. <button class="vt-clear" type="button" id="artistAll">Показать все композиции раздела</button>';
+      if (!note.hidden) { note.querySelector('b').textContent = c.textContent.trim(); $('#artistAll').onclick = () => { st.artist = ''; history.replaceState(null, '', location.pathname); artistUI(); run(true); }; }
+      if (st.artist && !c) st.artist = '';
+    };
+    artistUI();
     run(true);
   }
 
